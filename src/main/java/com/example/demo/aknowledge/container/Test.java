@@ -1,7 +1,4 @@
-package com.example.springdemo;
-
-import com.example.springdemo.service.AppConfig;
-import com.example.springdemo.spring.WjApplicationContext;
+package com.example.demo.aknowledge.container;
 
 /**
  * @version 1.0
@@ -10,9 +7,12 @@ import com.example.springdemo.spring.WjApplicationContext;
  */
 public class Test {
 
+    /**
+     * 人工模拟容器启动测试
+     *
+     * @param args
+     */
     public static void main(String[] args) {
-
-
         WjApplicationContext wjApplicationContext = new WjApplicationContext(AppConfig.class);
     }
 }

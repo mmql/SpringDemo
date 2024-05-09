@@ -1,8 +1,6 @@
-package com.example.springdemo.spring;
+package com.example.demo.aknowledge.container;
 
 import org.springframework.context.annotation.ComponentScan;
-
-import java.lang.annotation.Annotation;
 
 /**
  * @version 1.0
@@ -21,15 +19,9 @@ public class WjApplicationContext {
             String path = String.valueOf(componentScanAnnotation.value());
         }
 
-
     }
-
-
     public Object getBean(String beanName){
         return null;
     }
-
-
-
 
 }

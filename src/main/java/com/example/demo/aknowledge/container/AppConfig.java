@@ -1,4 +1,4 @@
-package com.example.springdemo.service;
+package com.example.demo.aknowledge.container;
 
 import org.springframework.context.annotation.ComponentScan;
 

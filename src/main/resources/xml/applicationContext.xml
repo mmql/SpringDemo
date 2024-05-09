@@ -7,6 +7,6 @@
 <!--    开启注解-->
 <!--    <context:annotation-config/>-->
 <!--    spring-xml启动要指明扫描路径，如果要通过注解形式指定，要开启上面的配置-->
-    <context:component-scan base-package="com.example.testdemo" />
-    <bean id="test" class="com.example.testdemo.Person"/>
+    <context:component-scan base-package="com.example.demo" />
+    <bean id="test" class="com.example.demo.aknowledge.container.Person"/>
 </beans>
